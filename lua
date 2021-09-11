@@ -36,7 +36,7 @@ local serv = win:Server("Funtion", "")
 local Script = serv:Channel("Script")
 
 Script:Button("Blox Fruits [ Risk ]",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NitroHub1234/Blox-Fruits-Update-15/main/README.md"))()
+     game.Players.localPlayer:Kick("You has baned form This game :D")
 end)
 Script:Button("Asanal [ Undetect ]",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NitroHub1234/Asanal/main/lua"))()
