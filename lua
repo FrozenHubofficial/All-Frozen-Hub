@@ -1,5 +1,3 @@
-
-
 wait (0.1) do
     print("[ ! ] Blox Fruist : Activate")
     print("[ ! ] Blox Fruits : Safe")
@@ -48,12 +46,6 @@ Script:Button("Natural Disaster Survival [ Undetect ]",function()
 end)
 
 
-if _G.Captive = true then
-    Script:Button("Captive [ Undetect ]",function()
-    print("Comeing Soon")   
-end)
-end
-
 local News = serv:Channel("News")
 News:Label("Blox Fruits Ver.0.0.1")
 News:Label("Script Stats : Activate")
@@ -61,4 +53,3 @@ News:Label("Script Stats : Undetect")
 News:Label("Asanal Stats : Activate")
 News:Label("Asanal Stats : Undetect")
 end
-
